@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
 
 
-        <div className='menu hidden md:block border rounded  md:w-auto' id='navbar'>
+        <div className='menu hidden md:block  rounded  md:w-auto' id='navbar'>
             <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
                 {
                     navLinks.map((link,index)=>{
