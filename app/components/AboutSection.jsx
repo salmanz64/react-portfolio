@@ -55,7 +55,7 @@ const AboutSection = () => {
   return (
     <section className='text-white'>
       <div className='md:grid-cols-2 md:grid gap-8 items-center py-8 px-4'>
-    <Image src={"/images/"} width={500} height={500} />
+    <Image src={"/images/work.avif"} alt='an image' width={500} height={500} />
     <div className=''>
         <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
         <p className='text-base lg:text-lg'>
@@ -69,6 +69,7 @@ With experience in both Flutter and web development, I enjoy working across plat
         <TabButton selectTab={()=>handleTabChange("certification") } active={tab == "certification"} >{" "}certification{" "}</TabButton>
         
         </div>
+        <div className='mt-8'>{TAB_DATA.find((t)=>t.id==tab).content}</div>
     </div>
       </div>
     </section>
