@@ -11,11 +11,13 @@ const TAB_DATA = [
         content:(
             <ul>
                 <li>Node.js</li>
-                <li>Node.js</li>
-                <li>Node.js</li>
-                <li>Node.js</li>
-                <li>Node.js</li>
-                <li>Node.js</li>
+                <li>Flutter</li>
+                <li>Tailwind</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>React.js</li>
+                <li>PostegreSQL</li>
+                
             </ul>
         )
     },
@@ -24,8 +26,8 @@ const TAB_DATA = [
         id:"education",
         content:(
             <ul>
-                <li>Fullstatck Academy of Code</li>
-                <li>Node.js</li>
+                <li>BTech College of Engineering Aranmula</li>
+                <li>Computer Science</li>
                 
             </ul>
         )
@@ -35,8 +37,10 @@ const TAB_DATA = [
         id:"certification",
         content:(
             <ul>
-                <li>Node.js</li>
-                <li>Node.js</li>
+                <li>Free Code Camp Responsive Design Certification</li>
+                <li>Free Code Camp JavaScript and Data Structure Certification</li>
+                <li>Free Code Camp Frontend Libraries Certification</li>
+                <li>Free Code Camp BackendDevelopment Certification</li>
               
             </ul>
         )
@@ -55,13 +59,13 @@ const AboutSection = () => {
   return (
     <section className='text-white'>
       <div className='md:grid-cols-2 md:grid gap-8 items-center py-8 px-4'>
-    <Image src={"/images/work.avif"} alt='an image' width={500} height={500} />
+    <Image src={"/images/profile.avif"} alt='an image' width={500} height={500}  className='rounded-md'/>
     <div className=''>
         <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
         <p className='text-base lg:text-lg'>
             Hi, I'm a passionate and creative developer with a focus on building practical and impactful applications. I love solving real-world problems using technology and turning ideas into working products.
 Currently, I'm developing a smart canteen management app that simplifies ordering, tracking, and managing food in educational institutions. My goal is to enhance the everyday dining experience with speed, convenience, and a touch of smart automation.
-With experience in both Flutter and web development, I enjoy working across platforms and constantly learning new tools and technologies to improve my craft. When I'm not coding, I spend time exploring design ideas, building side projects, or learning something new in the world of tech.
+With experience in both Flutter and web development, I enjoy working across platforms and constantly learning new tools and technologies to improve my craft.
         </p>
         <div className='flex flex-row justify-start mt-8'>
         <TabButton selectTab={()=>handleTabChange("skills") } active={tab == "skills"} >{" "}Skills{" "}</TabButton>
