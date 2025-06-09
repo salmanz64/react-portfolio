@@ -9,7 +9,7 @@ const projectsData = [
     {id:1,
         title:"React Portfolio Website",
         description:"Project 1 description",
-        image:"/images/projects/2.png",
+        image:"./images/projects/2.png",
         tag:["All","Web"],
         gitUrl:"/",
         previewUrl:"/"
@@ -17,7 +17,7 @@ const projectsData = [
     {id:2,
         title:"React Portfolio Website",
         description:"Project 1 description",
-        image:"/images/projects/3.png",
+        image:"./images/projects/3.png",
         tag:["All","Web"],
         gitUrl:"/",
         previewUrl:"/"
@@ -25,7 +25,7 @@ const projectsData = [
     {id:3,
         title:"React Portfolio Website",
         description:"Project 1 description",
-        image:"/images/projects/4.png",
+        image:"./images/projects/4.png",
         tag:["All","Web"],
         gitUrl:"/",
         previewUrl:"/"
@@ -33,14 +33,14 @@ const projectsData = [
     {id:4,
         title:"React Portfolio Website",
         description:"Project 1 description",
-        image:"/images/projects/5.png",
+        image:"./images/projects/5.png",
         tag:["All","Mobile"],
         gitUrl:"/",
         previewUrl:"/"
     },{id:5,
         title:"React Portfolio Website",
         description:"Project 1 description",
-        image:"/images/projects/6.png",
+        image:"./images/projects/6.png",
         tag:["All","Mobile"],
         gitUrl:"/",
         previewUrl:"/"
